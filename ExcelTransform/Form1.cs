@@ -40,7 +40,7 @@ namespace ExcelTransform
 
 			string str;
 			var dataSeq = tbSeq.Text.Split('_'); //排序資料
-			int rCnt = Int32.Parse(tbRow.Text); //Row
+			int rCnt = 2; //Row
 			int cCnt = Int32.Parse(tbCol.Text); //Col
 			int rw = 0;
 			int cl = 0;
@@ -53,7 +53,7 @@ namespace ExcelTransform
 			rw = range.Rows.Count;
 			cl = range.Columns.Count;
 
-			for (rCnt = 2; rCnt <= rw; rCnt++)
+			for (rCnt = Int32.Parse(tbRow.Text); rCnt <= rw; rCnt++)
 			{
 				//初始陣列資料
 				var arr = new List<int>();

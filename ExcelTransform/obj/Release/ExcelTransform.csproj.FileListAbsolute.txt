@@ -1,0 +1,15 @@
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\ExcelTransform.exe.config
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\ExcelTransform.exe
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\ExcelTransform.pdb
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\EPPlus.dll
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\ExcelDataReader.dll
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\EPPlus.xml
+D:\Codes\ExcelTransform\ExcelTransform\bin\Release\ExcelDataReader.xml
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.csprojResolveAssemblyReference.cache
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.csproj.ResolveComReference.cache
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.Form1.resources
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.Properties.Resources.resources
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.csproj.GenerateResource.Cache
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.csproj.CoreCompileInputs.cache
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.exe
+D:\Codes\ExcelTransform\ExcelTransform\obj\Release\ExcelTransform.pdb
