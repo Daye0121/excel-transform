@@ -33,6 +33,23 @@ namespace ExcelTransform
 
 		private void Transform_Click(object sender, EventArgs e)
 		{
+
+			if (Path.Text == "")
+			{
+				MessageBox.Show("尚未選擇檔案!");
+				return;
+			}
+			if (tbSeq.Text == "")
+			{
+				MessageBox.Show("排列順序未填!");
+				return;
+			}
+			if (tbCol.Text == "")
+			{
+				MessageBox.Show("計算行數未填!");
+				return;
+			}
+
 			Excel.Application xlApp;
 			Excel.Workbook xlWorkBook;
 			Excel.Worksheet xlWorkSheet;
@@ -40,10 +57,12 @@ namespace ExcelTransform
 
 			string str;
 			var dataSeq = tbSeq.Text.Split('_'); //排序資料
-			int rCnt = 2; //Row
+			int rCnt = tbRow.Text == "" ? 2 : Int32.Parse(tbRow.Text); //Row
 			int cCnt = Int32.Parse(tbCol.Text); //Col
 			int rw = 0;
 			int cl = 0;
+
+
 
 			xlApp = new Excel.Application();
 			xlWorkBook = xlApp.Workbooks.Open(this.Path.Text, 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
@@ -53,7 +72,7 @@ namespace ExcelTransform
 			rw = range.Rows.Count;
 			cl = range.Columns.Count;
 
-			for (rCnt = Int32.Parse(tbRow.Text); rCnt <= rw; rCnt++)
+			for (; rCnt <= rw; rCnt++)
 			{
 				//初始陣列資料
 				var arr = new List<int>();
@@ -98,6 +117,22 @@ namespace ExcelTransform
 
 		private void Transform2_Click(object sender, EventArgs e)
 		{
+			if (Path2.Text == "")
+			{
+				MessageBox.Show("尚未選擇檔案!");
+				return;
+			}
+			if (tbDataName.Text == "")
+			{
+				MessageBox.Show("排列順序未填!");
+				return;
+			}
+			if (tbCol2.Text == "")
+			{
+				MessageBox.Show("計算行數未填!");
+				return;
+			}
+
 			Excel.Application xlApp;
 			Excel.Workbook xlWorkBook;
 			Excel.Worksheet xlWorkSheet;
@@ -105,16 +140,10 @@ namespace ExcelTransform
 
 			string str;
 			var dataName = tbDataName.Text.Split('_'); //欲計算的資料名稱
-			int rCnt = 2; //Row
+			int rCnt = tbRow2.Text == "" ? 2 : Int32.Parse(tbRow2.Text); //Row
 			int cCnt = Int32.Parse(tbCol2.Text); //Col
 			int rw = 0;
 			int cl = 0;
-
-			if (Path2.Text == "")
-			{
-				MessageBox.Show("尚未選擇檔案!");
-				return;
-			}
 
 			xlApp = new Excel.Application();
 			xlWorkBook = xlApp.Workbooks.Open(this.Path2.Text, 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
@@ -128,7 +157,7 @@ namespace ExcelTransform
 			for (var i = 0; i < dataName.Length; i++)
 				(range.Cells[1, cl + i + 1]) = dataName[i];
 
-			for (rCnt = Int32.Parse(tbRow2.Text); rCnt <= rw; rCnt++)
+			for (; rCnt <= rw; rCnt++)
 			{
 				str = (string)(range.Cells[rCnt, cCnt] as Excel.Range).Value2;
 

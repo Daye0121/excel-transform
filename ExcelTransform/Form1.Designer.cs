@@ -95,9 +95,9 @@
 			this.lblRow.AutoSize = true;
 			this.lblRow.Location = new System.Drawing.Point(10, 122);
 			this.lblRow.Name = "lblRow";
-			this.lblRow.Size = new System.Drawing.Size(179, 12);
+			this.lblRow.Size = new System.Drawing.Size(221, 12);
 			this.lblRow.TabIndex = 6;
-			this.lblRow.Text = "Row(橫向，從第幾列開始計算)：";
+			this.lblRow.Text = "Row(橫向，從第幾列開始計算，預設2)：";
 			// 
 			// lblCol
 			// 
@@ -110,7 +110,7 @@
 			// 
 			// tbRow
 			// 
-			this.tbRow.Location = new System.Drawing.Point(195, 119);
+			this.tbRow.Location = new System.Drawing.Point(237, 117);
 			this.tbRow.Name = "tbRow";
 			this.tbRow.Size = new System.Drawing.Size(152, 22);
 			this.tbRow.TabIndex = 7;
@@ -133,7 +133,7 @@
 			// 
 			// tbCol
 			// 
-			this.tbCol.Location = new System.Drawing.Point(195, 153);
+			this.tbCol.Location = new System.Drawing.Point(237, 151);
 			this.tbCol.Name = "tbCol";
 			this.tbCol.Size = new System.Drawing.Size(152, 22);
 			this.tbCol.TabIndex = 9;
@@ -186,13 +186,13 @@
 			this.lblRow2.AutoSize = true;
 			this.lblRow2.Location = new System.Drawing.Point(10, 302);
 			this.lblRow2.Name = "lblRow2";
-			this.lblRow2.Size = new System.Drawing.Size(179, 12);
+			this.lblRow2.Size = new System.Drawing.Size(221, 12);
 			this.lblRow2.TabIndex = 16;
-			this.lblRow2.Text = "Row(橫向，從第幾列開始計算)：";
+			this.lblRow2.Text = "Row(橫向，從第幾列開始計算，預設2)：";
 			// 
 			// tbRow2
 			// 
-			this.tbRow2.Location = new System.Drawing.Point(195, 299);
+			this.tbRow2.Location = new System.Drawing.Point(237, 299);
 			this.tbRow2.Name = "tbRow2";
 			this.tbRow2.Size = new System.Drawing.Size(152, 22);
 			this.tbRow2.TabIndex = 17;
@@ -208,7 +208,7 @@
 			// 
 			// tbCol2
 			// 
-			this.tbCol2.Location = new System.Drawing.Point(195, 334);
+			this.tbCol2.Location = new System.Drawing.Point(237, 334);
 			this.tbCol2.Name = "tbCol2";
 			this.tbCol2.Size = new System.Drawing.Size(152, 22);
 			this.tbCol2.TabIndex = 19;
