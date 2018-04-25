@@ -1,0 +1,15 @@
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\ExcelTransform.exe.config
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\ExcelTransform.exe
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\ExcelTransform.pdb
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\EPPlus.dll
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\ExcelDataReader.dll
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\EPPlus.xml
+D:\Codes\winform\readExcel\ExcelTransform\bin\Debug\ExcelDataReader.xml
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.csprojResolveAssemblyReference.cache
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.csproj.ResolveComReference.cache
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.Form1.resources
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.Properties.Resources.resources
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.csproj.GenerateResource.Cache
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.csproj.CoreCompileInputs.cache
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.exe
+D:\Codes\winform\readExcel\ExcelTransform\obj\Debug\ExcelTransform.pdb
